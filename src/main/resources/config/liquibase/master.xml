@@ -14,6 +14,19 @@
     <property name="uuidType" value="uuid" dbms="h2, postgresql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210200_added_entity_Commande.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210300_added_entity_Cooperative.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210400_added_entity_Panier.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210500_added_entity_Paiement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210600_added_entity_Produit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210700_added_entity_Restaurant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210800_added_entity_Role.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20200424210200_added_entity_constraints_Commande.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210300_added_entity_constraints_Cooperative.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210400_added_entity_constraints_Panier.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210600_added_entity_constraints_Produit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210700_added_entity_constraints_Restaurant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200424210800_added_entity_constraints_Role.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

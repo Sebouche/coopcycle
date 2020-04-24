@@ -149,13 +149,13 @@ jhipster:
     default-include-pattern: /api/.*
     title: myblog API
     description: myblog API documentation
-    version: 0.0.1
-    terms-of-service-url:
-    contact-name:
-    contact-url:
-    contact-email:
-    license:
-    license-url:
+    version: 1.0
+    terms-of-service-url: coopcycle.terms.com
+    contact-name: coopcycle
+    contact-url: coopcycle.com
+    contact-email: coopcycle@gmail.com
+    license: None
+    license-url: None
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
